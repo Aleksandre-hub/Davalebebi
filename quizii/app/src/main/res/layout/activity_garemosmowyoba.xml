@@ -17,6 +17,15 @@
             android:layout_height="wrap_content"
             android:orientation="vertical" >
 
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="finished"
+                android:text="back"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/textView9"
                 android:layout_width="match_parent"
@@ -58,6 +67,21 @@
                 android:layout_width="match_parent"
                 android:layout_height="270dp"
                 app:srcCompat="@drawable/asgp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text='ქვემოთ მოცემულ სურათზე თქვენ ხედავთ "your virtual devices" ფაილს ამ ფაილიდან თქვენ შეძლებთ გადმოიწეროთ ვირტუალური ტელეფონი რის საშვალებითაც დატესტატ თქვენს აპლიკაციებს, ეს არის კრიტიკულად მნიშვნელოვანი აპლიკაციის შესაქმნელად'
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                app:srcCompat="@drawable/asgp3" />
+
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
