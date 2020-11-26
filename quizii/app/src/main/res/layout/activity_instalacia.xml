@@ -1,9 +1,137 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".instalacia">
+    android:layout_height="match_parent">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="104dp"
+                android:layout_height="61dp"
+                android:onClick="finish"
+                android:text="back" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="137dp"
+                android:text="ანდროიდსტუდიოს გადმოსაწერად დაგჭირდებათ ოფიციალური საიტი, ოფიციალურ საიტზე მითითებულია გადმოწერის გზა."
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="225dp"
+                android:layout_height="wrap_content"
+                android:onClick="link"
+                android:text="developer.android.com" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="207dp"
+                android:text='როდესაც შეხვალთ ვებგვერდზე გადადით "Download"-სექციაში და ქვემოთ ჩამოთცლილი ლინკებიდან აირჩიეთ თქვენი კომპიუტერის შესაფერისი'
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                app:srcCompat="@drawable/asdp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="138dp"
+                android:text='როდესაც საინსტალაციო ფიაილს ჩაიწერთ და გახსნით, პირველი ფანჯარა გაიხსნება დააკლიკეთ ღილაკზე "next"'
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/inst1" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="146dp"
+                android:text='ქვემოთ ნაჩვენებ სურათზე დამწყებთათვის რეკომენდირებულია პირდაპირ დააჭირონ ღილაკს "next"'
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/asdp1" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="231dp"
+                android:text='ქვემოთ ნაჩვენებ სურათზე შეგიძლიათ შეცვალოთ ადნროიდსტუდიოს ინსტალაციის ადგილი, თუ "default"-ად არჩეული ადგილი გაკმაყოფილებთ შეგიძლიათ დააჭიროთ ღილაკს "next"'
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                app:srcCompat="@drawable/asdp2" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text='ქვემოთ ნაჩვენებ სურათზე დაელოდეთ სანამ შეივსება და დააჭირეთ ღილალს "next"'
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                app:srcCompat="@drawable/asdp3" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text='ქვემოთ ნაჩვენებ სურათზე თქვენ უკვე გაიარეთ ინსტალაციის ძირითადი ნაწილი და ამის შემდეგ მოგიწევთ უბრალოდ დამატებითი ოპციების არჩევა თქვენი გემოვნების მიხედვით, უბრალოდ დააჭირეთ ღილაკს "finish"'
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                app:srcCompat="@drawable/asdp4" />
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:onClick="finish"
+                android:text="back"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
