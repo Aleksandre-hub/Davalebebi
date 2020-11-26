@@ -30,6 +30,34 @@
                 android:layout_width="match_parent"
                 android:layout_height="350dp"
                 app:srcCompat="@drawable/asdp7" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text='ქვემოთ მოცემულ სურათზე ჩანს "xml" ფაილი ამ ფაილში თქვენ შეძლებთ შეარჩიოთ თქვენთვის სასურველი დიზაინი თქვენი აპლიკაციისთვის, სურათის მარცხენა მხარეს ჩანს დიზაინის კოდირებით დამუშავების სამუშაო ადგილი ხოლო მარჯვენა მხარეს კი ჩანს თქვენი ცვლილებები და გაქვთ პირდაპირ მოცემული ოპციები რის მიხედვითაც შეძლებთ დიზაინის შეცვლას'
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                app:srcCompat="@drawable/asgp1" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text='ქვემოთ მოცემულ სურათზე ჩანს "MainActivity.java" ფაილი, ამ ფაილში თქვენ დაწერთ კოდებ და ააწყობთ აპლიკაციას'
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                app:srcCompat="@drawable/asgp" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
