@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void problemebi (View view)
     {
-        Intent fixebiii = new Intent(this, fixebi.class);
+        Intent fixebiii = new Intent(this, dafixva.class);
         startActivity(fixebiii);
     }
 

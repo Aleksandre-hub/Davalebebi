@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".garemosmowyoba"></activity>
+        <activity android:name=".dafixva"></activity>
+        <activity android:name=".garemosmowyoba" />
         <activity android:name=".fixebi" />
         <activity android:name=".instalacia" />
         <activity android:name=".MainActivity">
