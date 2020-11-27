@@ -16,7 +16,7 @@ public class instalacia extends AppCompatActivity {
 
     public void link (View view)
     {
-        Intent linki = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.developer.android.com.kh"));
+        Intent linki = new Intent(Intent.ACTION_VIEW, Uri.parse("http://developer.android.com"));
         startActivity(linki);
     }
 
