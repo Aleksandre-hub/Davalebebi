@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
 
         val querry = db.collection("users")
 
-        val options = FirestoreRecyclerOptions.Builder<User>().setQuery(querry, User::class.java)
+        val options: FirestoreRecyclerOptions<User> = FirestoreRecyclerOptions.Builder<User>().setQuery(querry, User::class.java)
             .setLifecycleOwner(this).build()
 
         val adapter  = object: FirestoreRecyclerAdapter<User, UserViewHolder>(options){
